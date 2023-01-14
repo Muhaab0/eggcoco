@@ -12,7 +12,7 @@ export default function Services() {
   useEffect(() => {
     const getServices = async() => {
       try {
-        const res = await axios.get("/service/all/")
+        const res = await axios.get("/api/service/all/")
         setServicesBox(res.data.results)
       } catch (error) {
         console.log(error)

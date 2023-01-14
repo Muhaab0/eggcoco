@@ -35,7 +35,7 @@ export default function ContactForms() {
       "note":message
     }
     try {
-      const res = await axios.post(`/contact-us/`, form )
+      const res = await axios.post(`/api/contact-us/`, form )
       const name = form.name
       navigate("/" ,{state:{name}})
     } catch (error) {

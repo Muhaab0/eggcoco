@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import img from '../../assets/Group 10108.png'
+import img from "../../assets/Group 10108.png"
 import "./hero.css"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Vector from "../../assets/HomeVector.png"
